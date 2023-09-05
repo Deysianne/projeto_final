@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Clínica de Estética</title>
+    <link rel="stylesheet" href="agendamentos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo_lotus.png" >            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="agendamentos.html">AGENDAMENTOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="agendamento">
+            <h2>Agende um Horário</h2>
+            <form action="#" method="post">
+                <label for="servico">Serviço:</label>
+                <select name="servico" id="servico">
+                    <option value="Selecione uma opção">Selecione uma opção</option>
+                    <option value="massagem">Massagem</option>
+                    <option value="tratamento-facial">Tratamento Facial</option>
+                    <option value="depilacao">Depilação</option>
+                    <!-- Outras opções de serviços aqui -->
+                </select>
+                
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data" required>
+                
+                <label for="horario">Horário:</label>
+                <input type="time" name="horario" id="horario" required>
+                
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; 2023 Clínica de Estética e Saúde Lótus</p>
+        <img src="sistem_tech.png" height="140px" width="190px">
+    </footer>
+</body>
+</html>
